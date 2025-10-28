@@ -5,7 +5,8 @@
   "main": "index.html",
   "scripts": {
     "start": "npx http-server . -p 3000",
-    "dev": "npx live-server ."
+    "dev": "npx live-server .",
+    "build": "mkdir -p build && cp -r *.html *.css *.js build/"
   },
   "keywords": ["2048", "game", "puzzle", "javascript"],
   "author": "",
