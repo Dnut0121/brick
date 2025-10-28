@@ -1,0 +1,17 @@
+{
+  "name": "2048-game",
+  "version": "1.0.0",
+  "description": "A classic 2048 puzzle game built with vanilla JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000",
+    "dev": "npx live-server ."
+  },
+  "keywords": ["2048", "game", "puzzle", "javascript"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  }
+}
